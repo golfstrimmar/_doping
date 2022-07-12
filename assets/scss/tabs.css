@@ -1,0 +1,76 @@
+.tabs {
+  margin: 100px 0;
+}
+
+.tab {
+  border-radius: 10px;
+  position: relative;
+  background: white;
+  
+}
+
+.tab__title {
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all .3s ease-in-out;
+  padding: 10px 40px;
+}
+
+.tab__title svg {
+  width: 20px;
+  height: 20px;
+  transition: all .3s ease-in-out;
+  fill: white;
+}
+
+.tab__title span {
+  transition: all .3s ease-in-out;
+  color: white;
+}
+
+
+.tab-js._is-active > .tab__title  {
+  background: rgb(142, 127, 212);
+}
+
+.tab-js._is-active > .tab__title svg,
+.tab-js._is-active > .tab__title span
+{
+  color:rgb(85, 40, 143);
+  fill: rgb(85, 40, 143);
+}
+
+.tab-js._is-active > .tab__title svg{
+  transform: rotate(180deg);
+}
+
+
+.tabs ul > li {
+  border: 3px solid #560db6;
+  background: cadetblue;
+  transition: all .5s ease-in-out;
+  position: relative;
+  margin: 0 0 30px 0;
+}
+
+.tabs ul > li > ul li{margin: 0 0 0 0;}
+
+.tabs .hidden
+{
+  background: rgb(85, 40, 143);
+  transition: all .3s ease-in-out;
+  display: none;
+}
+
+
+.tabs .hidden._is-active {
+  display: block;
+}
+.tabs .hidden._is-active li{
+ margin: 0 0 0 0; 
+}

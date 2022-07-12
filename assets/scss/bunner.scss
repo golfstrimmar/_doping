@@ -1,0 +1,158 @@
+.bunner {
+  min-height: 100vh;
+  position: relative;
+
+  .container {
+    z-index: 57;
+    position: relative;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    padding: 300px 300px 0 0px;
+    position: relative;
+  }
+
+  &__text {
+    margin: 50px 0 30px 0;
+  }
+
+  &__text p {
+    margin: 0 0 10px 0;
+    font-size: 85px;
+    line-height: 108px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: "DrukCyr", serif;
+    color: #fe306b;
+  }
+
+  &__button {
+    margin: 50px 0 0 0;
+  }
+  h1 {
+    font-size: 110px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-family: "DrukCyr", serif;
+    text-transform: uppercase;
+  }
+}
+
+div .bunner__decor1 {
+  width: 1010px;
+  height: 903px;
+  position: relative;
+  position: absolute;
+  top: 300px;
+  right: 0;
+  left: auto;
+  z-index: 4;
+}
+
+div .bunner__decor2 {
+  width: 365px;
+  height: 658px;
+  position: relative;
+  position: absolute;
+  top: 765px;
+  right: 0;
+  left: auto;
+  z-index: 4;
+}
+
+div .bunner__decor4 {
+  width: 2032px;
+  height: 1354px;
+  position: relative;
+  position: absolute;
+  top: 0;
+    left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+div .bunner__decor5 {
+  width: 815.82px;
+height: 454.91px;
+  position: relative;
+  position: absolute;
+  top: 0;
+    left: 0;
+  z-index: 3;
+}
+
+div .bunner__decor6 {
+ width: 193px;
+  height: 193px;
+  position: relative;
+  position: absolute;
+  top: 790px;
+    left: 50%;
+  z-index: 73;
+}
+
+div .bunner__bg {
+  position: relative;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2971px;
+  height: 2457px;
+  z-index: 2;
+}
+
+.bunner-button {
+  position: relative;
+  width: 545px;
+  height: 111px;
+  border-radius: 100px;
+  box-shadow: 4px 38px 62px 0 rgba(219, 17, 79, 0.5);
+  background-image: radial-gradient(
+      circle at 86% 88%,
+      rgba(0, 0, 0, 0.23),
+      rgba(0, 0, 0, 0) 18%
+    ),
+    radial-gradient(
+      circle at 26% 21%,
+      rgba(255, 255, 255, 0.59),
+      rgba(255, 255, 255, 0) 50%,
+      rgba(255, 255, 255, 0) 72%
+    ),
+    linear-gradient(to bottom, #ec0e52, #ec0e52);
+  font-size: 18px;
+  text-align: center;
+  line-height: 25px;
+  span span {
+    font-weight: 800;
+  }
+
+  &__img {
+    position: absolute;
+    left: -42px;
+  }
+  &__add {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 97px;
+    z-index: -1;
+    width: 507px;
+    border: solid 1px #585656;
+    background-color: #363333;
+    min-height: 94px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    span {
+      letter-spacing: 1.2px;
+      letter-spacing: 0.08em;
+    }
+    svg {
+      width: 33px;
+      height: 26px;
+      margin: 0 10px 0 0;
+    }
+  }
+
+}

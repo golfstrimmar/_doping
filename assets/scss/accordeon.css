@@ -1,0 +1,55 @@
+.accord{
+  /* padding: 50px 0; */
+  border: 1px solid #7ab764;
+}
+
+.accord__header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: rgb(230, 237, 243);
+}
+
+.accord-header-item {
+  display: block;
+  padding: 5px 10px;
+  text-align: center;
+  border-bottom-color: transparent;
+  border-right: none;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.accord-header-item._is-active {
+  background: #bef5aa;
+}
+
+.accord-hidden-item {
+  height: 0;
+  width: 100%;
+  background: #bef5aa;
+  transition: all .3s ease-in-out;
+  transform: scaleY(0);
+  transform-origin: top;
+  /* opacity: 0; */
+}
+
+
+.accord-hidden-item._is-active {
+  background: #bef5aa;
+  transform: scaleY(1);
+  border-top: none;
+  /* opacity: 1; */
+  /* display: table; */
+
+}
+
+.accord-tabs{
+padding: 100px;
+}
+
+.accord-hidden-item * {
+  background: #bef5aa;
+}
+
+
+
